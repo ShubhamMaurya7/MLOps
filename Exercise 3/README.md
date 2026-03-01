@@ -12,11 +12,18 @@ It contains input features and a target variable for training a machine learning
 ## 3. Project Structure
 mlops-unit1/
 │
-├── data/              
-├── src/               
-├── models/            
-├── requirements.txt   
-└── README.md          
+├── data/
+│   └── dataset.csv
+│
+├── src/
+│   ├── train.py
+│   └── utils.py
+│
+├── models/
+│   └── model.pkl
+│
+├── requirements.txt
+└── README.md       
 
 ## 4. Steps to Run the Project
 
@@ -34,3 +41,4 @@ Step 4: Run training script
 
 
 After execution, the trained model will be saved inside the models/ folder.
+
